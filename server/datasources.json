@@ -1,0 +1,24 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mysqlDs": {
+    "host": "localhost",
+    "port": 3306,
+    "database": "getting_started",
+    "username": "phpmyadmin",
+    "password": "root",
+    "name": "mysqlDs",
+    "connector": "mysql"
+  },
+  "mongoDs": {
+    "host": "localhost",
+    "port": 27017,
+    "database": "bookStore",
+    "username": "",
+    "password": "",
+    "name": "mongoDs",
+    "connector": "mongodb"
+  }
+}
