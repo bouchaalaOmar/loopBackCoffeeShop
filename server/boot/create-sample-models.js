@@ -21,14 +21,14 @@ module.exports = function(app) {
       if (err) return cb(err);
       var Reviewer = app.models.Reviewer;
       Reviewer.create([{
-        email: 'foo@bar.com',
-        password: 'foobar',
+        email: 'bouch@gmail.com',
+        password: 'bouch',
       }, {
-        email: 'john@doe.com',
-        password: 'johndoe',
+        email: 'omar@gmail.com',
+        password: 'omar',
       }, {
-        email: 'jane@doe.com',
-        password: 'janedoe',
+        email: 'bouchomar@gmail.com',
+        password: 'bouchomar',
       }], cb);
     });
   }
@@ -39,13 +39,13 @@ module.exports = function(app) {
       var CoffeeShop = app.models.CoffeeShop;
       CoffeeShop.create([{
         name: 'Bel Cafe',
-        city: 'Vancouver',
+        city: 'Sfax',
       }, {
-        name: 'Three Bees Coffee House',
-        city: 'San Mateo',
+        name: 'Express',
+        city: 'Tunis',
       }, {
-        name: 'Caffe Artigiano',
-        city: 'Vancouver',
+        name: 'Caffe ',
+        city: 'Gabes',
       }], cb);
     });
   }

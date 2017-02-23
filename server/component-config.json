@@ -1,5 +1,10 @@
 {
   "loopback-component-explorer": {
     "mountPath": "/explorer"
+  },
+  "loopback-component-admin": {
+    "mountPath": "/admin",
+    "userModel": "User", 
+    "userLoginField": "username"
   }
 }
